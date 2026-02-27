@@ -1,0 +1,64 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Emma",
+      "surname": "Johnson",
+      "email": "emma.johnson@example.com"
+    },
+    {
+      "id": "3",
+      "name": "Liam",
+      "surname": "Smith",
+      "email": "liam.smith@example.com"
+    },
+    {
+      "id": "4",
+      "name": "Olivia",
+      "surname": "Brown",
+      "email": "olivia.brown@example.com"
+    },
+    {
+      "id": "5",
+      "name": "Noah",
+      "surname": "Davis",
+      "email": "noah.davis@example.com"
+    },
+    {
+      "id": "6",
+      "name": "Ava",
+      "surname": "Wilson",
+      "email": "ava.wilson@example.com"
+    },
+    {
+      "id": "7",
+      "name": "William",
+      "surname": "Martinez",
+      "email": "william.martinez@example.com"
+    },
+    {
+      "id": "8",
+      "name": "Sophia",
+      "surname": "Anderson",
+      "email": "sophia.anderson@example.com"
+    },
+    {
+      "id": "9",
+      "name": "James",
+      "surname": "Thomas",
+      "email": "james.thomas@example.com"
+    },
+    {
+      "id": "334b2d2a-f875-49f0-ad92-a656f4f8ac65",
+      "name": "John",
+      "surname": "Dragonball",
+      "email": "johnkeepingit.1000@gmail.com"
+    },
+    {
+      "id": "b3d9",
+      "name": "Goga",
+      "surname": "Vashakidze",
+      "email": "goga.vashakidze@example.com"
+    }
+  ]
+}
