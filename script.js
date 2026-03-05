@@ -219,6 +219,8 @@ document.querySelector("#editUserFrom").addEventListener("submit", async (e) => 
   }
 
  await updateUser(id, updatedUser)
+
+ await renderUsers()
 })
 
 
