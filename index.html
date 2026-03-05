@@ -8,15 +8,67 @@
     <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>🕵️‍♂️ User Management System</h1>
-      <p>CRUD operations</p>
-    </header>
-
     <main>
-      <div class="users-section">
-        <h2>📋 All users</h2>
-        <ul class="user-list"></ul>
+      <div class="container">
+        <header class="header">
+          <h1>👤 User Management System</h1>
+          <p>Complete CRUD Operations Example</p>
+        </header>
+
+        <div class="content">
+          <div class="form-section" id="addFormSection">
+            <h2>➕ Add New user</h2>
+
+            <form id="addUserForm">
+              <div class="form-group">
+                <label for="name">Name:</label>
+                <input
+                  type="text"
+                  id="name"
+                  required
+                  placeholder="Enter user name"
+                />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email:</label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  required
+                  placeholder="enter your email"
+                />
+                <button type="submit" class="btn btn-primary">Add user</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="form-section" id="editFormSection">
+            <h2>Edit users</h2>
+            <form id="editUserFrom">
+              <input type="hidden" id="editUserId">
+              <div class="form-group">
+                <label for="editName">name</label>
+                <input type="text" name="name" id="editName" />
+              </div>
+              <div class="form-group">
+                <label for="editEmail">email</label>
+                <input type="email" name="email" id="editEmail" />
+              </div>
+              <button class="btn btn-primary">Edit User</button>
+            </form>
+          </div>
+
+          <div class="users-section">
+            <h2>📋 All Users</h2>
+            <ul class="users-list" id="usersList">
+              <li class="empty-state">
+                <p>Loading users...</p>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </main>
   </body>

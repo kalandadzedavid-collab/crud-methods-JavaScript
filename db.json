@@ -43,22 +43,14 @@
       "email": "sophia.anderson@example.com"
     },
     {
-      "id": "9",
-      "name": "James",
-      "surname": "Thomas",
-      "email": "james.thomas@example.com"
+      "name": "Jamesuuu",
+      "email": "jamesthomas11@example.com",
+      "id": "9"
     },
     {
-      "id": "334b2d2a-f875-49f0-ad92-a656f4f8ac65",
       "name": "John",
-      "surname": "Dragonball",
-      "email": "johnkeepingit.1000@gmail.com"
-    },
-    {
-      "id": "b3d9",
-      "name": "Goga",
-      "surname": "Vashakidze",
-      "email": "goga.vashakidze@example.com"
+      "email": "johnkeeping-it.1000@gmail.com",
+      "id": "334b2d2a-f875-49f0-ad92-a656f4f8ac65"
     }
   ]
 }
